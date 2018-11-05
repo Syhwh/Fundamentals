@@ -1,0 +1,83 @@
+html{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }   
+
+.sign-up-form {
+    max-width: 30%;
+    min-width: 300px;
+    padding: 50px 30px 50px 30px;
+    margin: 50px auto;
+    background:none;
+    box-shadow:none;
+    border: none;
+    background-color:rgba(107, 107, 107, 0.2);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.label_form {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: rgb(214, 212, 212);
+    background:none;
+    z-index: 10;
+    transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+}
+
+.label_form_focused {
+    transform: translateY(-125%);
+    font-size: 1.2em; 
+    color: rgb(212, 212, 212);
+  }
+
+.input_element {
+    position: relative;
+    padding: 12px 0px 5px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    color:white;
+    background:none;
+    box-shadow:none;
+    border: none;        
+    box-shadow: 0 2px 0 0 white;
+    transition: box-shadow 150ms ease-out;
+}
+.input_element:focus {
+    box-shadow: 0 2px 0 0 rgb(128, 16, 16);
+}
+.confirmMessage{
+    display: block;
+    margin-top: 5px;
+    color: #bbbbbb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 25%;
+    height: 50px;
+}
+
+.activated{
+    box-shadow: "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+}
